@@ -1,6 +1,7 @@
 @import "main.css";
 @import "question.css";
 @import "animation.css";
+@import "status.css";
 body {
   height: 100vh;
   font-family: "Nanum Gothic", sans-serif;

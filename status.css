@@ -1,0 +1,14 @@
+.status {
+  display: none;
+}
+.status-bar {
+  height: 20px;
+  width: 80%;
+  border-radius: 10px;
+  border: 1px solid rgb(121, 121, 240);
+}
+.status-bar-matter {
+  height: 100%;
+  background-color: blue;
+  border-radius: 10px;
+}

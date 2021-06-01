@@ -7,22 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <title>대학생 유형 테스트에 오신걸 환영합니다</title>
 </head>
 <body>
-    <div class="main">
-        <h2 class="main-title">대학생 유형 테스트</h2>
-        <p class="main-detail">내가 만약 대학생이라면, 내가 현재 대학생이라면, 내가 대학생이었다면 나는 어떤 유형일까?<br>
-            총 12문항에 답을 하고 어떤 유형인지 알아보세요!<br>
-            준비가 됐다면 시작하기 버튼을 눌러주세요</p>
-        <button class="main-btn" onclick="js:begin()">시작하기</button>
+    <div class="container">
+        <div class="main mx-auto mt-5 py-5 px-3">
+            <h2 class="main-title">대학생 유형 테스트</h2>
+            <p class="main-detail">내가 만약 대학생이라면, 내가 현재 대학생이라면, 내가 대학생이었다면 나는 어떤 유형일까?<br>
+                총 12문항에 답을 하고 어떤 유형인지 알아보세요!<br>
+                준비가 됐다면 시작하기 버튼을 눌러주세요</p>
+            <button class="main-btn" onclick="js:begin()">시작하기</button>
+        </div>
+        <div class="question">
+            <div class="question-box my-5 py-3 mx-auto">
+    
+            </div>
+            <div class="question-answer">
+    
+            </div>
+        </div>
+        <div class="status mt-5">
+            <div class="status-bar mx-auto">
+                <div class="status-bar-matter">
+
+                </div>
+            </div>
+        </div>
+        <div class="reult">
+            
+        </div>
+        <script src="js/information.js" charset="utf-8"></script>
+        <script src="js/question.js" charset="utf-8"></script>
     </div>
-    <div class="question">
-        Hi
-    </div>
-    <div class="reult">
-        
-    </div>
-    <script src="js/question.js" charset="utf-8"></script>
 </body>
 </html>
