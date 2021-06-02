@@ -50,6 +50,14 @@ function goNext(qNum){
         goResult();
         return;
     }
+    var questionImg = document.createElement('img');
+    const qImg = document.querySelector('.question-img');
+    var imgURL = 'img/img'+ qNum + '.jpg';
+    questionImg.src = imgURL;
+    questionImg.alt = qNum;
+    questionImg.classList.add('img-fluid');
+    qImg.appendChild(questionImg);
+
     var q = document.querySelector('.question-box');
     q.innerHTML = questionlist[qNum].q;
     for(let i in questionlist[qNum].a){
