@@ -1,8 +1,10 @@
 @import "main.css";
-@import "question.css";
 @import "animation.css";
-@import "status.css";
-@import "result.css";
+/*question*/
+@import "question/question.css";
+@import "question/status.css";
+/*result*/
+@import "result/result.css";
 body {
   height: 100vh;
   font-family: "Nanum Gothic", sans-serif;

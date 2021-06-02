@@ -5,6 +5,13 @@ const result = document.querySelector('.result');
 const endPoint = 12;
 const select = [];
 
+function setResult(){
+    let point = calResult();
+    const resultType = document.querySelector('.result-type');
+    resultType.innerHTML = resultlist[point].type;
+    const resultDetail = document.querySelector('.result-detail');
+    resultDetail.innerHTML = resultlist[point].detail;
+}
 function goResult(){
     question.style.WebkitAnimation = "fadeOut 1s";
     question.style.animation = "fadeOut 1s";
@@ -18,8 +25,8 @@ function goResult(){
             status.style.display = "none";
             result.style.display = "block";
         }, 450)
-    });
-    calResult();
+    })
+    setResult();
 }
 function addAnswer(answerText, qNum, iNum){
     var a = document.querySelector('.question-answer');

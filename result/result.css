@@ -1,0 +1,21 @@
+.result {
+  display: none;
+  margin-top: 40px;
+  text-align: center;
+}
+.result-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.result-type {
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.result-detail {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  text-align: left;
+  padding: 10px;
+}
