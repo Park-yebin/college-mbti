@@ -41,6 +41,10 @@ function addAnswer(answerText, qNum, iNum){
             children[i].disabled = true;
             children[i].style.display = 'none';
         }
+        var images = document.querySelectorAll('.img-fluid');
+        for(let i = 0; i < images.length; i++){
+            images[i].style.display = 'none';
+        }
         select[qNum] = iNum;
         goNext(++qNum);
     },false);
