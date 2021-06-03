@@ -89,22 +89,22 @@ function begin(){
 }
 function calResult(){
     var pointArray = [
-        { type: 'ESTJ', value: 0, key: 0 },
-        { type: 'ESTP', value: 0, key: 1 },
-        { type: 'ESFJ', value: 0, key: 2 },
-        { type: 'ESFP', value: 0, key: 3 },
-        { type: 'ENTJ', value: 0, key: 4 },
-        { type: 'ENTP', value: 0, key: 5 },
-        { type: 'ENFJ', value: 0, key: 6 },
-        { type: 'ENFP', value: 0, key: 7 },
-        { type: 'ISTJ', value: 0, key: 8 },
-        { type: 'ISTP', value: 0, key: 9 },
-        { type: 'ISFJ', value: 0, key: 10 },
-        { type: 'ISFP', value: 0, key: 11 },
-        { type: 'INTJ', value: 0, key: 12 },
-        { type: 'INTP', value: 0, key: 13 },
-        { type: 'INFJ', value: 0, key: 14 },
-        { type: 'INFP', value: 0, key: 15 }
+        { type: '인간알람형', value: 0, key: 0 },
+        { type: '오늘은 자체휴강각이다형', value: 0, key: 1 },
+        { type: '리액션장인 나야나형', value: 0, key: 2 },
+        { type: '대인관계만렙형', value: 0, key: 3 },
+        { type: '본투비조장형', value: 0, key: 4 },
+        { type: '혹시 물이세요형', value: 0, key: 5 },
+        { type: '그냥 제가 할게요형', value: 0, key: 6 },
+        { type: '호기심폭발 새내기형', value: 0, key: 7 },
+        { type: '말하는 감자형', value: 0, key: 8 },
+        { type: '니 이름이 왜 여기서 나와형', value: 0, key: 9 },
+        { type: '내추럴본서포터형', value: 0, key: 10 },
+        { type: '평화주의 한량형', value: 0, key: 11 },
+        { type: '예비대학원생형', value: 0, key: 12 },
+        { type: '프로팩폭러형', value: 0, key: 13 },
+        { type: '도서관지박령형', value: 0, key: 14 },
+        { type: '친구한정 흥부자형', value: 0, key: 15 }
     ]
     for(let i = 0; i < endPoint; i++){
         var target = questionlist[i].a[select[i]];

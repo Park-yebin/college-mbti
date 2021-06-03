@@ -1,5 +1,6 @@
-@import "main.css";
 @import "animation.css";
+/*start*/
+@import "start/main.css";
 /*question*/
 @import "question/question.css";
 @import "question/status.css";
